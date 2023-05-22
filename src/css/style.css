@@ -54,3 +54,36 @@ main {
 #formContent h1 {
     margin-bottom: 3vh;
 }
+*.modoEscuro{
+    color: white;
+}
+
+body.modoEscuro {
+    background-color: rgb(22, 21, 21);
+}
+
+
+header.modoEscuro {
+    background-color: rgb(44, 41, 41);
+}
+
+header div h1.modoEscuro {
+    border: 1px solid white;
+}
+
+#formContent.modoEscuro {
+    background-color:rgb(44, 41, 41);
+}
+
+footer.modoEscuro {
+    background-color:rgb(44, 41, 41);
+}
+
+.stdButton.modoEscuro{
+    background-color: rgb(20, 19, 19);
+}
+
+.stdButton:hover.stdButton.modoEscuro {
+    background-color: rgb(155, 155, 199);
+    color: black;
+}
