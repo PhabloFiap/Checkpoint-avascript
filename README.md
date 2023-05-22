@@ -1,1 +1,1 @@
-# Checkpoint-avascript
+# Checkpoint-Javascript
