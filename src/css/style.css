@@ -28,4 +28,29 @@ header div h1{
     font-size: 3rem;
     border: 1px solid black;
     padding: 1vh 2vw;
+}#botaoEscuro{
+    max-width: 50%;
+    margin-right: 3vw;
+}
+
+main {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+#formContent{
+    background-color: lightblue;
+    width: 10vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 5vh 5vw;
+}
+
+#formContent h1 {
+    margin-bottom: 3vh;
 }
