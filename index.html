@@ -1,45 +1,51 @@
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario cp3</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="">
     <script src="./src/js/cp3.js" defer></script>
+    <title>CP3</title>
 </head>
+
 <body>
 
-        
     <header class="alteraCor">
-        <div class="alteraCor"><h1 class="alteraCor">FIAP</h1></div>
+        <div class="alteraCor">
+            <h1 class="alteraCor">FIAP</h1>
+        </div>
         <button class="stdButton alteraCor" id="botaoEscuro"> Modo Escuro</button>
-
     </header>
-        <main class="alteraCor">
-            <div id="formContent" class="alteraCor">
-                <h1>Formulario</h1>
-                <form action="">
-                    <label for="primeiroNome">Primeiro Nome:</label>
-                    <input type="text" id="primeiroNome" required>
-    
-                    <label for="segundoNome">Segundo Nome:</label>
-                    <input type="text" id="segundoNome" required>
-    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required>
-    
-                    <label for="senha">Senha:</label>
-                    <input type="password" id="senha" required>
-    
-                    <label for="confirmacaoSenha">Confirmação de Senha:</label>
-                    <input type="password" id="confirmacaoSenha" required>
-    
-                    <input type="submit" value="Enviar" class="stdButton alteraCor" id="formButton">
-                </form>
-            </div>
-    
-        </main>
+    <main class="alteraCor">
+        <div id="formContent" class="alteraCor">
+            <h1>Formulario</h1>
+            <form id="meuFormulario" action="">
+                <label for="primeiroNome">Primeiro Nome:</label>
+                <input type="text" id="primeiroNome" required>
 
-    
+                <label for="segundoNome">Segundo Nome:</label>
+                <input type="text" id="segundoNome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+
+                <label for="confirmacaoSenha">Confirmação de Senha:</label>
+                <input type="password" id="confirmacaoSenha" required>
+
+                <input type="submit" value="Enviar" class="stdButton alteraCor" id="formButton">
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="alteraCor">
+        <h3>Todos os direitos reservados &copy; </h3>
+    </footer>
 </body>
+
 </html>
